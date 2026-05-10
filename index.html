@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Quicksand:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+
+<nav class="nav">
+    <div class="logo"><span class="dot">●</span> Java Scriptt</div>
+    <div class="nav-links">
+        <a href="#lektionen" class="btn-small">Lektionen</a>
+        <a href="#quiz" class="btn-small">Quiz</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <p class="eyebrow">Informatik von Paula und Elmira</p>
+    <h1 class="fade-up">JavaScript</h1>
+    <p class="lead fade-up delay-1">
+        Diese Seite erklärt, was JavaScript ist, wer sie
+        erfunden hat und wo man sie überall nutzt. Am Ende gibt es auch ein kleines
+        Quiz.
+    </p>
+
+    <div class="buttons fade-up delay-2">
+        <a href="#lektionen" class="btn">Mehr erfahren</a>
+        <a href="#quiz" class="btn btn-pink">Direkt zum Quiz</a>
+    </div>
+</section>
+
+<!-- Facts -->
+<section id="lektionen" class="facts">
+    <h2>Alles Wichtige über JavaScript</h2>
+    <p class="muted">Die Informationen stammen aus Wikipedia.</p>
+
+    <div class="grid">
+        <article class="card fade-up">
+            <div class="num">1</div>
+            <h3>Was ist JavaScript?</h3>
+            <p>JavaScript ist eine Programmiersprache, die hauptsächlich für Webseiten benutzt wird. Mit ihr kann man eine Seite interaktiv machen – also zum Beispiel auf Klicks reagieren, Inhalte verändern oder kleine Spiele bauen. Sie läuft direkt im Browser, ohne dass man etwas installieren muss.</p>
+        </article>
+
+        <article class="card fade-up delay-1">
+            <div class="num">2</div>
+            <h3>Wer hat JavaScript erfunden?</h3>
+            <p>JavaScript wurde von Brendan Eich erfunden. Er hat die Sprache im Jahr 1995 entwickelt, als er bei der Firma Netscape gearbeitet hat. Angeblich hat er nur zehn Tage gebraucht, um die erste Version zu schreiben.</p>
+        </article>
+
+        <article class="card fade-up delay-2">
+            <div class="num">3</div>
+            <h3>Wann ist sie entstanden?</h3>
+            <p>JavaScript wurde 1995 zum ersten Mal veröffentlicht. Damals hieß sie kurz „Mocha“, dann „LiveScript“ und schließlich „JavaScript“. Der Name wurde gewählt, weil die Sprache Java damals sehr beliebt war – obwohl die beiden Sprachen kaum etwas miteinander zu tun haben.</p>
+        </article>
+
+        <article class="card fade-up delay-3">
+            <div class="num">4</div>
+            <h3>Wo wird sie benutzt?</h3>
+            <p>Fast jede Webseite benutzt heute JavaScript: zum Beispiel Google, YouTube, Instagram oder TikTok. Außerdem kann man mit JavaScript auch Apps für das Handy machen, Server programmieren oder sogar kleine Roboter steuern.</p>
+        </article>
+
+        <article class="card fade-up">
+            <div class="num">5</div>
+            <h3>Wie sieht JavaScript aus?</h3>
+            <p>JavaScript-Code besteht aus Anweisungen, die der Computer der Reihe nach ausführt. Hier ein kleines Beispiel: Wir speichern einen Namen in einer Variablen und geben dann eine Begrüßung aus.</p>
+            <pre><code>// Begrüßung
+const name = "Paula";
+console.log("Hallo " + name + "!");</code></pre>
+        </article>
+
+        <article class="card fade-up delay-1">
+            <div class="num">6</div>
+            <h3>Warum ist sie so wichtig?</h3>
+            <p>JavaScript ist eine der am meisten benutzten Programmiersprachen der Welt. Wer Webseiten bauen oder im Internet etwas programmieren möchte, kommt fast nicht an ihr vorbei. Auch viele Berufe in der IT setzen sie voraus.</p>
+        </article>
+    </div>
+</section>
+
+
+<section id="quiz" class="quiz-section">
+    <h2>Kleines Quiz zum Schluss</h2>
+    <p class="muted">Sechs Fragen zu allem, was oben erklärt wurde. Mal sehen, wie viele ihr richtig habt.</p>
+
+    <div id="quiz" class="quiz-card"></div>
+</section>
+
+<footer>Ein Schulprojekt von Paula und Elmira</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
